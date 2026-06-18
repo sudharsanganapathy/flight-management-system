@@ -8,13 +8,15 @@ import MyBookings from "../pages/MyBookings";
 // import AdminDashboard from "../pages/AdminDashboard";
 import FlightDetails from "../pages/flightDetails";
 import BookingSuccess from "../pages/BookingSuccess";
-import AdminDashboard from "../pages/admin/AdminDashboard ";
+// import AdminDashboard from "../pages/admin/AdminDashboard";
+import AdminDashboard from "../pages/admin/AdminDashboard";
 import AddFlight from "../pages/admin/AddFlight";
 import ManageFlights from "../pages/admin/ManageFlights";
 import EditFlight from "../pages/admin/EditFlight";
 import AdminBookings from "../pages/admin/AdminBookings";
 import AdminUsers from "../pages/admin/AdminUsers";
 import Profile from "../pages/Profile";
+import NotFound from "../pages/NotFound";
 
 
 const AppRoutes = () => {
