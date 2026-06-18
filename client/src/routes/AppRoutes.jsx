@@ -15,7 +15,6 @@ import EditFlight from "../pages/admin/EditFlight";
 import AdminBookings from "../pages/admin/AdminBookings";
 import AdminUsers from "../pages/admin/AdminUsers";
 import Profile from "../pages/Profile";
-import NotFound from "../pages/NotFound";
 
 
 const AppRoutes = () => {
