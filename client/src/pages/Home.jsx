@@ -2,6 +2,8 @@ import dubaiImg from "../assets/destination/dubai.jpg";
 import singaporeImg from "../assets/destination/singapore.jpg";
 import parisImg from "../assets/destination/paris.jpg";
 import tokyoImg from "../assets/destination/tokyo.jpg";
+import tokyoUpdImg from "../assets/destination/tokyo-upd.png";
+import singaporeUpdImg from "../assets/destination/singapore-upd.webp";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaPlane } from "react-icons/fa";
@@ -34,7 +36,7 @@ const handleSearch = () => {
   },
   {
     name: "Singapore",
-    image: singaporeImg,
+    image: singaporeUpdImg,
     price: "₹21,999",
     description: "A futuristic city with endless possibilities.",
     badge: "Trending",
@@ -48,7 +50,7 @@ const handleSearch = () => {
   },
   {
     name: "Tokyo",
-    image: tokyoImg,
+    image: tokyoUpdImg,
     price: "₹39,999",
     description: "Tradition meets cutting-edge technology.",
     badge: "Hot",
